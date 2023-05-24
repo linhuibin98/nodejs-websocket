@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-websocket",
+  "version": "1.0.0",
+  "description": "nodejs websocket",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "run-p dev:*",
+    "dev:server": "node src/node/index.js",
+    "dev:client": "vite"
+  },
+  "author": "linhuibin98",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "18",
+    "npm-run-all": "^4.1.5",
+    "vite": "^4.3.8"
+  }
+}
